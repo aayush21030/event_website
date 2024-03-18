@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style type="text/css">
+        table{
+            width:100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th,td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 2px solid black;
+        }
+        th{
+            background-color: grey;
+        }
+        tbody tr:nth-child(even){
+        background-color: #f2f2f2;
+        }
+
+        tbody tr:hover{
+            background-color: red;
+        }
+        .eve{
+            background-color: black;
+            height: 10rem;
+        }
+        .eve h1{
+            color: wheat;
+        }
+        .eve p{
+            color: #f2f2f2;
+        }
+        .bod1{
+        background-color:beige;
+        height: 30rem;
+        background-image: url(bod1.png);
+        }
+        .bod2{
+            margin-left: 34rem;
+            padding-top: 5rem;
+        }
+        #title{
+        color: aliceblue;
+        font-family: fantasy;
+        font-size: 5rem;
+        }
+        #title-1{
+            font-size: x-large;
+            color: aliceblue;
+            margin-left: 38rem;
+            margin-top:-40px ;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #title-2{
+            font-size: xx-large;
+            color: aliceblue;
+            margin-left: 41rem;
+            margin-top:-5px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+        }
+        body{
+            background-color: black;
+        }
+        table{
+            background-color:wheat;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bod1">
+        <div class="bod2">
+            <h1 id="title">DHOOM 2024</h1>
+        </div>
+            <p id="title-1">Gujarats Largest Cultural Fest </p>
+            <p id="title-2"><b>19-22 March</b></p>
+        </div>
+        <div class="eve">
+            <h1>DHOOM Events Schedule</h1>
+            <p>Organized by Parul University</p>
+            <p>Vadodara,Gujarat</p>
+        </div>
+    <table>
+        <tbody>
+            <th>Name of the Artist</th>
+            <th>Date of performance</th>
+            <th>Time of performance</th>
+            <th>Venue</th>
+            <th>Ticket</th>
+        </tbody>
+        <tr>
+            <td>Nucleya</td>
+            <td>19th March</td>
+            <td>19:00 IST</td>
+            <td>Dhoom Ground</td>
+            <td><button class="book_now">Book Now</button></td>
+            <!-- <td class="book_now">Book Now</td> -->
+        </tr>
+        <tr>
+            <td>KING</td>
+            <td>19th March</td>
+            <td>21:00 IST</td>
+            <td>Open Arena</td>
+            <td><button class="book_now">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>Jonita Gandhi</td>
+            <td>20th March</td>
+            <td>20:00 IST</td>
+            <td>Open Arena</td>
+            <td><button class="book_now">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>DJ Chetas</td>
+            <td>20th March</td>
+            <td>22:00 IST</td>
+            <td>Dhoom Ground</td>
+            <td><button class="book_now">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>Arijit Singh</td>
+            <td>21th March</td>
+            <td>20:00 IST</td>
+            <td>Open Arena</td>
+            <td><button class="book_now">Book Now</button></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .bod{
+            display: flex;
+        }
+        body{
+            /* background-image: url(night.png);
+            background-repeat: no-repeat;
+            background-size: cover; */
+            background-color: black;
+
+        }
+        .register{
+            color: white;
+            margin-left: 200px ;
+            font-family: sans-serif;
+        }
+        .form{
+            color: white;
+            margin-left: 200px ;
+            font-family: sans-serif;
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 20rem;
+            height: 25rem;
+            padding-top: 25px ;
+            padding-left: 35px;
+
+        }
+        #h5{
+            font-size: 12px;
+            padding-bottom: 50px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="date"]{
+            border-radius: 4px;
+            height: 40px;
+            width: 17rem;
+        }
+        #btn{
+            border-radius: 4px;
+            font-family: sans-serif;
+            height:40px;
+            width: 100px;
+            justify-content: center;
+            font-size: 16px;
+            background-color: orange;
+        }
+        .map {
+            margin-left: 12rem; 
+            margin-right: 20px;
+            display: flex;
+            width: 30rem;
+        }
+        .map iframe{
+            border-radius: 10px;
+            height: 27rem;
+        }
+            
+        #bto{
+            margin-top: 30px;
+        }
+        #foot1{
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.foot-2{
+    color: aliceblue;
+    margin-left: 100px;
+}
+.foot-3{
+    color: aliceblue;
+}
+.foot-4{
+    color: aliceblue;
+}
+.foot11{
+    display: flex;
+    justify-content: center;
+}
+    </style>
+</head>
+<body>
+        <div class="register">
+            <h1><strong>Event Registration Form</strong></h1>
+            <h5 id="h5">Registration closes 1 week prior to the evnt</h5>
+        </div>
+        <div class="bod">
+        <div class="form">
+            <form>
+                <div id="nme">
+                    <label>NAME</label>
+                    <br>
+                    <input type="text" placeholder="Enter your Name">
+                </div>
+                <br>
+                <div id="eml">
+                <label>EMAIL</label>
+                <br>
+                <input type="email" placeholder="Enter your email">
+                </div>
+                <br>
+                <div id="phn">
+                <label>PHONE</label>
+                <br>
+                <input type="number" placeholder="Enter your Phone Number">
+                </div>
+                <br>
+                <div id="dob">
+                <label>D.O.B</label>
+                <br>
+                <input type="date" placeholder="dd-mm-yyyy">
+                </div>
+                <div id="bto">
+                <button id="btn">Register</button>
+                </div>
+            </form>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7383.4218117831115!2d73.3574247903027!3d22.288938296023346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University!5e0!3m2!1sen!2sin!4v1710496865443!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <div class="foot">
+        <h1 id="foot1">DHOOM FESTIVAL</h1><hr>
+        </div>
+    <div class="foot11">
+    <div class="foot-2">
+        <ul>
+            <p><b>Get to know Us</b></p>
+            <p>About Us</p>
+            <p>Press Releases</p>
+        </ul>
+    </div>
+    <div class="foot-3">
+        <ul>
+            <p><b>Connect with Us</b></p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Instagram</p>
+    
+        </ul>
+    </div>
+    <div class="foot-4">
+        <ul>
+            <p><b>Contact Us</b></p>
+            <p>Phone:+91 9589632222 </p>
+            <p>Email: parulfestival@gmail.com</p>
+        </ul>
+    </div>
+</div>
+</footer>
+</html>
+
+
